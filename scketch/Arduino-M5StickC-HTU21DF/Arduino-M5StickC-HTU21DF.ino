@@ -37,7 +37,7 @@ void loop()
 {
 
     Wire.beginTransmission(I2C_ADR_HTU21D);
-        Wire.write(CMD_MESURE_TEMP);
+    Wire.write(CMD_MESURE_TEMP);
     Wire.endTransmission();
     delay(100);
     Wire.requestFrom(I2C_ADR_HTU21D,3);
@@ -61,8 +61,6 @@ void loop()
     Serial.println("--- ");
     dispTemp = Temp; //temperature
      
-//    M5.Lcd.fillRect(45, 30, 135, 50, BLACK);
-//    M5.Lcd.setCursor(60, 30, 1);
     M5.Lcd.fillRect(40, 30, 125, 50, BLACK);
     M5.Lcd.setCursor(50, 30, 1);
     M5.Lcd.setTextFont(4);
