@@ -1,5 +1,5 @@
 # Arduino-M5StickC-HTU21DF
-Temperature & Humiditiy Monitor Arduino Application for M5Stick
+Temperature & Humiditiy Monitoring Application for M5Stick(Arduino)
 
 ## Overview
 
