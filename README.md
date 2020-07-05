@@ -7,8 +7,8 @@ Temperature & Humiditiy Monitor Arduino Application for M5Stick
 
 ## Requirement
 
-- M5Stick-C
-- HTU21D-F
+- [M5Stick-C(ESP32)](https://www.switch-science.com/catalog/6350/)
+- [HTU21D-F](https://www.switch-science.com/catalog/1799/)
 - Arduino IDE (Version: 1.8.5)
 
 ## Description
